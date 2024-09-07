@@ -54,7 +54,7 @@ foreach ($users as $user) {
  
     if ($user['Email'] === $userEmail && $user['Password'] === $userPassword) {
       ?> <script> alert("Login successful!"); </script> <?php
-      header("location:http://192.168.1.44:1880/ui");
+      header("location:http://192.168.1.61:1880/ui");
     } else {
       ?> <script> alert( "Invalid email or password."); </script> <?php
     }
